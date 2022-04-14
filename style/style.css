@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#sorteio{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+IMG{
+    width: 100%;
+}
+button{
+    
+    font-size: 24px;
+    background-color: #005f73;
+    border-radius: 10px;
+}
+button:hover{
+    background: #00262e;
+}
+input{
+    height: 24px;
+    border-radius:5px ;
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+h1{
+    border: 1px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#load{
+    animation: is-rotating 3s infinite;
+    width: 30%;
+    
+}
+@keyframes is-rotating {
+  to { transform: rotate(1turn); } 
+}
+body{
+    background-color: #ee9b00;
+}
+#refresh{
+    margin-top: 20px;
+}
+#Trofeu{
+    width:30% ;
+}
